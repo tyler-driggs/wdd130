@@ -1,0 +1,14 @@
+.para {
+    font-size: 1.5em
+    line height 1.5em;
+}
+a {
+    background-color: steelblue;
+    font-size: 3em;
+    color: white
+    padding 10px;
+}
+#active{
+    background-color: white;
+    color: steelblue;
+}
