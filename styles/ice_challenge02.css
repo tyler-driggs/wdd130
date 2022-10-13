@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    margin:0px
+}
+.top_image{
+    width: 100%;
+    height:25%;
+
+}
+.bottom_images{
+    
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 5px solid darkgray;
+    margin:5%;
+}

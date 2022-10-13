@@ -1,0 +1,37 @@
+*{
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    
+}
+body{
+    background-color: hotpink;
+}
+/*hover effect*/
+#active {
+    font-size: 2em;
+    color:white 
+}
+#active:hover{
+    color: black
+}
+.list{
+    text-align: center;
+}
+.nelson{
+    width:40%;
+    height:40%;
+    align-self: center;
+}
+#quote{
+    color:white
+}
+.quote2{
+    margin-left: 26%;
+    margin-right: 26%;
+    font-size:1.5em;
+}
+h3{
+    color:white;
+}
+    
