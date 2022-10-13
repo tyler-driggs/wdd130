@@ -19,6 +19,9 @@ nav a:hover{
 .icon{
     width: 80px;
 }
+#hero-box{
+    text-align: center;
+}
 #hero-msg h1{
     text-align: center;
 }
