@@ -29,10 +29,12 @@ header{
     font-size: 18px;
     display: grid;
     grid-template-columns: 150px auto;
+    text-decoration: none;
 }
 nav{
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 nav a:hover{
     text-align: center;
@@ -72,17 +74,22 @@ nav a:hover{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    color: #ffffff;
 }
 #hero-msg h1{
     text-align: center;
+    font-size: 3em;
 }
 
 #hero-msg h4{
     text-align: center;
     color: white;
+    font-size: 1.5em;
 }
 .button-box{
     text-align: center;
+    text-decoration: none;
+
 }
 .book{
     text-decoration: none;
@@ -90,6 +97,7 @@ nav a:hover{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius:5px;
+    color: #ffffff;
 }
 .join{
     text-decoration: none;
@@ -102,12 +110,14 @@ nav a:hover{
     background-color: #DED8AE;
     grid-column: 1/11;
     grid-row: 4/9;
+    height: 725px;
 }
 .msg{
     padding:35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px;
+    border: 5px #3682B5;
 }
 .mountains{
     grid-column: 2/7;
@@ -146,10 +156,6 @@ main section img{
     grid-column: 8/10;
     grid-row: 2/3;
 }   
-
-
-/*   Main Section*/
-
 .home-grid{
     text-align: center;
     display: grid;
@@ -163,6 +169,10 @@ main section img{
 #background{
     height: 725px;
 }
+
+/*   End of Main Section*/
+
+
 footer{
     text-decoration: none;
     padding:25px 50px;
