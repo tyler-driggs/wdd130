@@ -29,11 +29,11 @@ header{
     font-size: 18px;
     display: grid;
     grid-template-columns: 150px auto;
-    text-decoration: none;
 }
 nav{
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 nav a:hover{
     text-align: center;
