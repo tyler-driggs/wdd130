@@ -116,6 +116,7 @@ nav a:hover{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px;
+    background-color: #3682B5;
     border: 5px #3682B5;
 }
 .mountains{
