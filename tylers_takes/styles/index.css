@@ -1,0 +1,152 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #e91e26   ;
+  --secondary-color: #050404 ;
+  --accent1-color: #670e11;
+  --accent2-color: #361416;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Bebas Neue";
+  --paragraph-font: Roboto Condensed, Helvetica, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #e91e26;  /* headlines on a white background */ 
+  --headline-color-on-color: #050404; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #670e11; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #e91e26; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #361416  ;
+  --nav-link-color: #050404;
+  --nav-background-color: #e91e26;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #670e11;
+}
+#content{
+    background-color: #e91e26;
+}
+/* HEADER */
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+.logo-link{
+  max-width: 127px;
+  max-height: 100px;
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.5em;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+/*BODY*/
+.takes{
+    text-align: center;
+}
+#show_takes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+#aot{
+  grid-column: 1/2;
+  justify-items: center;
+}
+.aot_img{
+  border: 5px solid #361416;
+  box-shadow: 8px 8px 8px 6px #050404;
+  justify-self: auto;
+  align-self: auto;
+  display: block;
+  margin: 0 auto;
+}
+#aot p{
+  border: 5px solid black;
+  justify-content: center;
+  background-color: #361416;
+  color:white;
+  max-width: 300px;
+}
+#aot a{
+  text-decoration: none;
+}
+
+#psych{
+  grid-column: 2/3;
+  text-decoration: none;
+
+}
+.psych_img{
+  border: 5px solid #361416;
+  box-shadow: 8px 8px 8px 6px #050404;
+  padding: 0em;
+  display: block;
+  margin: 0 auto;
+  justify-self: center;
+  align-self: center;
+}
+#psych p{
+  border: 5px solid black;
+  justify-content: center;
+  background-color: #361416;
+  color:white;
+  max-width: 300px;
+  text-decoration: none;
+}
+#psych a{
+  text-decoration: none;
+}
+
+#wandavision{
+  grid-column: 3/4;
+}
+.wandavision_img{
+  border: 5px solid #361416;
+  box-shadow: 8px 8px 8px 6px #050404;
+  display: block;
+  margin: 0 auto;
+}
+#wandavision p{
+  border: 5px solid black;
+  justify-content: center;
+  background-color: #361416;
+  color:white;
+  max-width: 300px;
+}
+#wandavision a{
+  text-decoration: none;
+}
