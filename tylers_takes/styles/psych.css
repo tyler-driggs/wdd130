@@ -112,14 +112,13 @@ nav a:hover {
   padding-bottom: 10px;
   margin-left: 15px;
   margin-right: 15px;
-  size: 1.4em;
+  font-size: 1.5em;
   border:15px #050404 solid;    
 }
 #overview h1{
   display: flex;
   grid-column: 2;
-  grid-row: 1/2;
-  float: center; 
+  grid-row: 1/2; 
 }
 .summary{
   grid-column: 1/3;
