@@ -112,13 +112,18 @@ nav a:hover {
   padding-bottom: 10px;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   border:15px #050404 solid;    
 }
 #overview h1{
   display: flex;
   grid-column: 2;
   grid-row: 1/2; 
+}
+#overview p{
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 .summary{
   grid-column: 1/3;
@@ -133,15 +138,12 @@ nav a:hover {
 }
 .family_pic{
   display: inline-block;
-  grid-column: 1/2;
-  grid-row: 4/5;
 }
 .family{
  grid-column: 2/3;
  grid-row: 3/4;
  display: inline-block;
- width: 55%;
- padding-left: 20px;
+ width: 59%;
 }
 .pineapple{
   float:right;
