@@ -118,10 +118,15 @@ nav a:hover {
   font-size: 1.3em;
   border:15px #050404 solid; 
 }
-#overview h1{
-  display: flex;
-  grid-column: 2;
-  grid-row: 1/2; 
+.text p{
+  padding-left:15px;
+  padding-right:15px;
+}
+.vision{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  display: block;
 }
 .heli{
   max-height: 325px;
